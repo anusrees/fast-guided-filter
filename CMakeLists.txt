@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.8.11)
+project (main)
+find_package(OpenCV REQUIRED PATHS "/usr/lib/x86_64-linux-gnu/cmake/opencv4")
+INCLUDE_DIRECTORIES( ${OpenCV_INCLUDE_DIRS} )
+add_executable (main main.cpp guidedfilter.cpp)
+TARGET_LINK_LIBRARIES (main ${OpenCV_LIBS} pthread)
