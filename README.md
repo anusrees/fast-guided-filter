@@ -1,7 +1,7 @@
 # Fast Guided filter
 
   
-This code is based on the guided filter implementation using OpenCV as given here: https://github.com/atilimcetin/guided-filter. This is a pure C++ based implementation and uses multithreading for faster execution speed.
+This code is based on the guided filter implementation using OpenCV as given here: https://github.com/atilimcetin/guided-filter. This is a pure C++ based implementation and uses multithreading for faster execution.<br/>
 Guided filter is an edge-preserving smoothing filter like the bilateral filter. It is straightforward to implement and has linear complexity independent of the kernel size. For more details about this filter see [[Kaiming10]](http://research.microsoft.com/en-us/um/people/kahe/eccv10/).
 
   
@@ -16,18 +16,7 @@ The interface consists of one simple function `guidedFilterMono` and a class `Au
   
   
 
-## Example
-
-  
-
-These examples are adapted from the [original MATLAB implementation](http://research.microsoft.com/en-us/um/people/kahe/eccv10/guided-filter-code-v1.rar).
-
-  
-
-  
-  
-
-### Flash/no-flash denoising
+### Flash/no-flash denoising Example
 
   
 
